@@ -55,3 +55,4 @@ gem 'simple_form'
 gem "font-awesome-rails"
 gem 'minitest'
 gem 'minitest-reporters'
+gem 'unobtrusive_flash', '>=3'
