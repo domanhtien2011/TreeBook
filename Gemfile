@@ -56,3 +56,13 @@ gem "font-awesome-rails"
 gem 'minitest'
 gem 'minitest-reporters'
 gem 'unobtrusive_flash', '>=3'
+group :development do
+  gem "better_errors"
+end
+gem "awesome_print", require:"ap"
+gem 'peek'
+gem 'pry-rails', :group => :development
+gem 'quiet_assets', group: :development
+gem 'hirb'
+gem 'puma'
+gem 'rails_admin'
