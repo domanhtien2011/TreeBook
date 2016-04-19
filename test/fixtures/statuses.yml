@@ -8,3 +8,6 @@ two:
   content: MyText
   user: user1
 
+three:
+  content: 'Hi I am a crazy girl!!! Nice to meet you!!! ^^'
+  user: user2

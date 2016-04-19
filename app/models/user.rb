@@ -8,10 +8,10 @@ class User < ActiveRecord::Base
 
   validates :first_name, presence: true
   validates :last_name, presence: true
-  validates :profile_name, presence: true, uniqueness: true#, #format: {
-    #with: /aA-zA-Z0-9_-/,
-    #message: 'Must be formatted correctly.'
-  #}
+  # validates :profile_name, presence: true, uniqueness: true,format: {
+  #   with: /^[a-zA-Z0-9_-]+$/,
+  #   message: 'Must be formatted correctly.'
+  # } sth is wrong with my regex
 
   def full_name
     first_name + " " + last_name

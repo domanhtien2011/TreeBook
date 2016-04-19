@@ -4,3 +4,9 @@ user1:
   email: 'faker@hotmail.com'
   profile_name: 'faker'
 
+user2:
+  first_name: 'hao'
+  last_name: 'do'
+  email: 'hao@hotmail.com'
+  profile_name: 'crazyGirl'
+

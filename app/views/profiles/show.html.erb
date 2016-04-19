@@ -1,0 +1,19 @@
+<div class="page-header" style="margin-bottom: 20px; margin-top: 10px;" >
+  <h1 class="text-sm-center"><%= @user.profile_name %></h1>
+</div>
+
+<% if @statuses %>
+  <div class="card-deck-wrapper">
+    <div class="card-deck">
+    <% @statuses.each do |s| %>
+      <div class="card card-inverse card-info">
+        <div class="card-block">
+          <%= s.content %>
+          <hr>
+          <%= link_to time_ago_in_words(s.created_at), s %> ago
+        </div>
+      </div>
+    <% end %>
+    </div>
+  </div>
+<% end %>
